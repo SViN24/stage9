@@ -13,11 +13,14 @@ OR you do not want any frequent updates breaking your computer
 
 What you need my friend is Windows 10 LTSC and a lot of patience.
 
-Windows 10 LTSC is a special version of windows that is meant for enterprise wanting stable systems that to do not update often. As of 2020 Windows 10 LTSC is based on 1809. A clean ISO (which I do not provide) is required
+Windows 10 LTSC is a special version of windows that is meant for enterprise. 
+Since entrerprise requires stable systems this version of windows does not update as often. As of 2020 Windows 10 LTSC is based on 1809. A clean ISO (which I do not provide) is required for this guide.
 
-The other thing you need is an existing windows installation(VM is also fine). And also a program called Optimize-Offline
+if you want to find how to get a clean ISO look at /fwt/
 
-To use Optimize offline you need to go to the releases page, Get the source code and then run the file Start-Optimize.ps1 using powershell.
+The other thing you need is an existing windows installation(VM is also fine). And also a program called [Optimize-Offline](https://github.com/DrEmpiricism/Optimize-Offline)
+
+To use Optimize-Offline you need to go to the releases page, Get the source code and then run the file Start-Optimize.ps1 using powershell.
 
 The rest is fairly straightforward, you remove applications and features that you will *not* use on Windows such as the mobile apps and then choose a compression level.
 Compression can take a while and you may want to choose None since you may want to test the iso for breakages.
@@ -25,16 +28,16 @@ Compression can take a while and you may want to choose None since you may want 
 
 # Software
 
-___
+***
 
 Well windows is nothing without software so here are some recommendations
 
 | Software Type | Software |
 |---|---|
-|Browser |Firefox, Firefox ESR, Chromium(woolys)|
+|Browser|Firefox, Firefox ESR, Chromium(woolys)|
 |E-Mail|Thunderbird|
-|Games| 	GoG, Steam|
-|Image Viewer|nomacs|
-|Painting/Picture editing| 	Krita, Gimp|
-|Video Player|mpv.net, VLC|
+|Games|GoG, Steam|
+|Image Viewer|nomacs,qView|
+|Painting/Picture editing|Krita, Gimp,if you find a copy of CS6 that is also good|
+|Video Player|mpv, VLC|
 |Package Manager|scoop.sh is the only real package manager for windows|

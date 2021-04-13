@@ -21,4 +21,4 @@
 
 * [mail(dismail.de)](mailto:svin@dismail.de)
 
-![daemon stop!](pic/daemon stop.jpg )
+![daemonstop](pic/daemonstop.jpg)
