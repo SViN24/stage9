@@ -1,4 +1,4 @@
-[Go Back] (index.html)
+[Go Back](index.html)
 
 # The Better Windows
 ___
